@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compataible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmFresh</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- *********header section *******-->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>FarmFresh</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#about">about us</a>
+            <!-- <a href="#blogs">Blogs</a> -->
+
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="text" id="search-box" placeholder="seach hear....">
+            <label for="serch-box" class="fas fa-search"></label>
+        </form>
+        <!-- shopping cart -->
+        <div class="shopping-cart">
+            <!-- tomato -->
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="tomato.jpg" alt="">
+                <div>
+                    <h3>Tomato</h3>
+                    <span class="price">INR 200/-</span>
+                    <span class="quantity">1 Kg</span>
+
+                </div>
+            </div>
+            <!-- Potato -->
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="zpotato.jpg" alt="">
+                <div>
+                    <h3>Potato</h3>
+                    <span class="price">INR 50/-</span>
+                    <span class="quantity">1 Kg</span>
+
+                </div>
+            </div>
+            <!-- chilli -->
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="zchilli.jpg" alt="">
+                <div>
+                    <h3>Green Chilli</h3>
+                    <span class="price">INR 50/-</span>
+                    <span class="quantity">1 Kg</span>
+
+                </div>
+            </div>
+            <div class="total">Total : INR 300/-</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+        <!-- login form -->
+        <form action="" class="login-form">
+            <h3> login now</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <hr>
+            <input type="password" placeholder="enter your password" class="box">
+            <p>forget your password <a href="#">click here </a></p>
+            <p>don't have an account<a href="#"> create now</a></p>
+            <input type="submit" value="login-now" class="btn">
+
+
+        </form>
+    </header>
+    <!-- *************header ends hear*********** -->
+
+    <!-- *********** Home Section************** -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Fresh from Farm <span>Organic </span> products for you</h3>
+            <p>From Our Farm to Your Table: Pure, Organic Goodness!</p>
+            <p>Nourish your body and the Earth with our Farm Fresh Organic products.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+    <!-- *********** Home Section end************** -->
+
+
+    <!-- ******features section -->
+
+    <section class="features" id="features">
+        <h1 class="heading">Our <span>features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="features1.png" alt="">
+                <h3>fresh and orgainc</h3>
+                <p>our farm fresh organic vegetables offer unparalleled flavor and nutritional benefits.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="features2.png" alt="">
+                <h3>fresh delivery</h3>
+                <p>we assure the fastest delivery in 2 hour , to give our customers farm fresh experience</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="features3.png" alt="">
+                <h3>easy payments</h3>
+                <p> all online payment(UPI , debit/credit Cards ect..) mode available and cash on delivery available.
+                </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ******features section end -->
+
+    <!-- **** products section ***** -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading">our <span>products</span></h1>
+        <div class=" swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="p1.jpg" alt="">
+                    <h3>oranges</h3>
+                    <div class="price"> INR 100/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="p2.jpg" alt="">
+                    <h3>onions</h3>
+                    <div class="price"> INR 50/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="p3.jpg" alt="">
+                    <h3>cabbege</h3>
+                    <div class="price"> INR 80/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="p4.jpg" alt="">
+                    <h3>capsicum</h3>
+                    <div class="price"> INR 130/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="zchilli.jpg" alt="">
+                    <h3>Green Chilli</h3>
+                    <div class="price"> INR 50/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="swiper product-slider ">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="p5.jpg" alt="">
+                    <h3>peas</h3>
+                    <div class="price"> INR 110/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="p6.jpg" alt="">
+                    <h3>watermelon</h3>
+                    <div class="price"> INR 50/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="p7.jpg" alt="">
+                    <h3> carrot</h3>
+                    <div class="price"> INR 80/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="p8.jpg" alt="">
+                    <h3>lemons</h3>
+                    <div class="price"> INR 130/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="tomato.jpg" alt="">
+                    <h3>tomato</h3>
+                    <div class="price"> INR 200/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- **** products section end ***** -->
+
+    <!-- cateegories section starts -->
+
+    <section class="categories" id="categories">
+        <h1 class="heading">product <span>categries</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="cat1.png" alt="">
+                <h3>vegitables</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="cat2.jpg" alt="">
+                <h3>fresh fruits</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="cat3.jpg" alt="">
+                <h3>dairy products</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="cat4.jpg" alt="">
+                <h3>Gaani musterd Oil</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- cateegories section end-->
+
+    <!--****** about us ********* -->
+    <section class="about" id="about">
+        <h1 class="heading"><span> about us</span></h1>
+        <div class="content">
+            <h3>Fresh from Farm <span>Organic </span> products for you</h3>
+            <p>From Our Farm to Your Table: Pure, Organic Goodness!</p>
+            <p>At Farm Fresh, we believe in the power of nature and the importance of wholesome, organic food. We are
+                passionate about providing you with the finest farm fresh products straight from our sustainable farms
+                to your table. Our mission is to promote a healthier and more sustainable lifestyle by offering a wide
+                range of high-quality, organic produce and artisanal products.</p>
+            <p>At Farm Fresh, we understand that food is at its best when it is fresh and full of flavor. That's why we
+                harvest our crops at their peak, carefully selecting each item for its quality and taste. From vibrant,
+                sun-ripened fruits to crisp, colorful vegetables, our products are a testament to the incredible
+                diversity and abundance of nature.</p>
+
+            <p>When you choose Farm Fresh, you are not only nourishing your body but also supporting local farmers and
+                contributing to a more sustainable future. Join us on this journey towards healthier living and
+                experience the pure joy of farm fresh, organic products that are truly good for you and the Earth!</p>
+            <h3>thank you for visiting farm <span>fresh</span></h3>
+            <a href="#" class="btn">know more</a>
+        </div>
+    </section>
+    <!--**** about us end********* -->
+
+    <!--******* footer section *******-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3> Farm fresh <i class="fas fa-shopping-basket"></i></h3>
+                <p>From Our Farm to Your Table: Pure, Organic Goodness!</p>
+                <div class="share">
+                    <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook"></a>
+                    <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram"></a>
+                    <a href="https://web.whatsapp.com/" target="_blank" class="fab fa-whatsapp"></a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i> +91-9860284640</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i> +91-9860284640</a>
+                <a href="https://mail.google.com/mail/" target="_blank" class="links"><i
+                        class="fas fa-envelope"></i>farmfresh@gmail.com</a>
+                <a href="https://maps.google.co.in" target="_blank" class="links"><i
+                        class="fas fa-map-marker-alt"></i>ayodhya, Uttar Pradesh, india-</a>
+
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home" class="links"><i class="fas fa-arrow-right"></i> home</a>
+                <a href="#features" class="links"><i class="fas fa-arrow-right"></i> features</a>
+                <a href="#products" class="links"><i class="fas fa-arrow-right"></i> products</a>
+                <a href="#categories" class="links"><i class="fas fa-arrow-right"></i> categories</a>
+                <a href="#about" class="links"><i class="fas fa-arrow-right"></i> about us</a>
+            </div>
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" placeholder="subscribe" class="btn">
+                <img src="pay" alt="" class="payments-img">
+            </div>
+
+        </div>
+        <div class="credit"> created by <span>mr. kuldeep</span> | all rights reserved | </div>
+    </section>
+    <!--******* footer section end*******-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
